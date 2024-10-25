@@ -1046,7 +1046,7 @@ function getBotSettingKeys(){
         ],
         [
             ['text'=>$subLink,'callback_data'=>"changeBotsubLinkState"],
-            ['text'=>"لینک اتصال",'callback_data'=>"wizwizch"]
+            ['text'=>"لینک اتصال (ساب)",'callback_data'=>"wizwizch"]
         ],
         [
             ['text'=>$configLink,'callback_data'=>"changeBotconfigLinkState"],
