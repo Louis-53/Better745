@@ -1748,7 +1748,8 @@ if(preg_match('/havePaiedWeSwap(.*)/',$data,$match)) {
 🔋حجم سرویس: $volume گیگ
 ⏰ مدت سرویس: $days روز⁮⁮ ⁮⁮
 " . ($botState['configLinkState'] != "off" && $serverType != "marzban"?"
- <code>$link</code>":"");
+🔗 لینک سرویس ( این لینک را کپی کنید )
+<code>$link</code>":"");
 
 if($botState['subLinkState'] == "on") $acc_text .= "
 
@@ -2992,7 +2993,8 @@ if(preg_match('/payCustomWithWallet(.*)/',$data, $match)){
 🔋حجم سرویس: $volume گیگ
 ⏰ مدت سرویس: $days روز⁮⁮ ⁮⁮
 " . ($botState['configLinkState'] != "off" && $serverType != "marzban"?"
- <code>$link</code>":"");
+🔗 لینک سرویس ( این لینک را کپی کنید )
+<code>$link</code>":"");
 if($botState['subLinkState'] == "on") $acc_text .= "
 
 
@@ -3717,7 +3719,8 @@ if(preg_match('/payWithWallet(.*)/',$data, $match)){
 🔋حجم سرویس: $volume گیگ
 ⏰ مدت سرویس: $days روز⁮⁮ ⁮⁮
 " . ($botState['configLinkState'] != "off" && $serverType != "marzban"?"
- <code>$link</code>":"");
+🔗 لینک سرویس ( این لینک را کپی کنید )
+<code>$link</code>":"");
 if($botState['subLinkState'] == "on") $acc_text .= "
 
 
@@ -4248,7 +4251,8 @@ if(preg_match('/accept(.*)/',$data, $match) and $text != $buttonValues['cancel']
 🔋حجم سرویس: $volume گیگ
 ⏰ مدت سرویس: $days روز
 " . ($botState['configLinkState'] != "off" && $serverType != "marzban"?"
- <code>$link</code>":"");
+🔗 لینک سرویس ( این لینک را کپی کنید )
+<code>$link</code>":"");
 if($botState['subLinkState'] == "on") $acc_text .= "
 
 
@@ -5714,7 +5718,8 @@ if(preg_match('/freeTrial(\d+)_(?<buyType>\w+)/',$data,$match)) {
 🔋حجم سرویس: $volume گیگ
 ⏰ مدت سرویس: $days روز
 " . ($botState['configLinkState'] != "off" && $serverType != "marzban"?"
- <code>$link</code>":"");
+🔗 لینک سرویس ( این لینک را کپی کنید )
+<code>$link</code>":"");
 if($botState['subLinkState'] == "on") $acc_text .= "
 
 \n🔗 لینک اتصال:

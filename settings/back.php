@@ -411,7 +411,8 @@ if($payType == "BUY_SUB"){
 ".
 ($botState['configLinkState'] != "off" && $serverType != "marzban"?
 "
- <code>$link</code>":"").
+🔗 لینک سرویس ( این لینک را کپی کنید )
+<code>$link</code>":"").
 ($botState['subLinkState']=="on"?
 "
 
